@@ -4,5 +4,5 @@ RUN apk add --no-cache socklog
 
 EXPOSE 514/udp
 
-CMD [ "socklog", "init" ]
+CMD [ "socklog", "inet" ]
 
